@@ -1,5 +1,5 @@
 
-** Bandwidth**
+## Bandwidth ##
 Big data bus rather than fast data bus
 Parallel data transfer
 Improve bandwidth:
@@ -7,19 +7,19 @@ Improve bandwidth:
 - data compression
 - recompute than store + fetch
 
-** Lantency **
+## Lantency ##
 I/O
 
-** Locality **
-*Spatial 空间上的*
+## Locality ##
+# Spatial 空间上的 #
 a[i] be accessed -> a[i+k] also be accessed
 ''' for (i=0;i<N;i++) a[i] = 0; '''
 
-*Temporal 时间上的*
+# Temporal 时间上的 #
 a[i] be accessed now -> a[i] be accessed soon again
 ''' a[i] = i; a[i] += N; b[i] = a[i]*a[i] '''
 
-** Memory Coalescing凝集 **
+## Memory Coalescing凝集 ##
 If warp threads access words from the same block of 32 words, their memory requests are clubbed into one.
 Without coalescing, each load/store would require one memory cycle
 
