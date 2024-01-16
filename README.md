@@ -1,2 +1,1 @@
-This is my Notes of GPU Programming.
-
+This is my Notes on GPU Programming.
