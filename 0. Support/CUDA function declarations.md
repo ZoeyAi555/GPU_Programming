@@ -7,3 +7,10 @@ CPU to GPU
 - free ```cudaFreeHost()```
 GPU to CPU
 ```cudaMemcpy ( void* dst, const void* src, size_t count, cudaMemcpyKind kind )```
+
+### Basic GPU Programming
+    - Computation, Memory, Synchronization, Debugging.
+### Advanced GPU Programming
+    - Streams, Heterogeneous computing, Case studies.
+### Topics in GPU Programming
+    - Unified virtual memory, multi-GPU, peer access
